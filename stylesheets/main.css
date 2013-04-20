@@ -1,0 +1,36 @@
+body {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  font-family: 'Arvo', serif;
+}
+
+.article {
+  position: relative; 
+  top: -40px;
+  padding-left: 200px;
+}
+
+a {
+  color:#030303;
+}
+
+th {
+  padding-left:18px;
+  padding-right:18px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+nav li{
+  display:inline;
+  list-style-type:none;
+  }
+nav {
+  float:right;
+  margin-right: 100px;
+  margin-bottom: 25px;
+}
+
+.selected {
+  color: red;
+}
+
