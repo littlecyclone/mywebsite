@@ -15,22 +15,26 @@ a {
 }
 
 th {
-  padding-left:18px;
-  padding-right:18px;
-  padding-top:10px;
-  padding-bottom:10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-nav li{
-  display:inline;
-  list-style-type:none;
-  }
+
 nav {
   float:right;
-  margin-right: 100px;
   margin-bottom: 25px;
 }
 
-.selected {
-  color: red;
+nav li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 84px;
 }
+
+nav li:last-child {
+  padding-right: 0;
+}
+
+
 

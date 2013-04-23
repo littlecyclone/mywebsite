@@ -2,8 +2,9 @@
 $(document).ready(function(){
 $('span.year').hide();
 
-$('nav li a').click(function(){
-  ($(this).hasClass('selected'))? $(this).removeClass(): $('.selected').removeClass(); $(this).addClass('selected')
-});
+var selected = ($('body').attr('id'));
+$('nav li a').filter('.'+selected).css('color', 'red');
+//(selected.hasClass('selected'))? $(this).removeClass(): $('.selected').removeClass(); $(this).addClass('selected')
 
 });
+
