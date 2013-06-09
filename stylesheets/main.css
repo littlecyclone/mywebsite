@@ -4,10 +4,41 @@ body {
   font-family: 'Arvo', serif;
 }
 
+nav {
+  float:right;
+  margin-bottom: 25px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+nav li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 53px;
+}
+
+nav li:last-child {
+  padding-right: 0;
+}
+
 .article {
   position: relative; 
   top: -40px;
   padding-left: 200px;
+}
+
+article {
+  position:relative;
+}
+
+time {
+  margin-left: -100px;
+  float:left;
+  font-weight: bold;
+}
+
+.time, .month {
+  padding-bottom: 200px;
 }
 
 a {
@@ -21,20 +52,9 @@ th {
   padding-bottom: 10px;
 }
 
-nav {
-  float:right;
-  margin-bottom: 25px;
+#sidebar h1 {
+  letter-spacing: 3px;
+  padding-left: 8px;
 }
-
-nav li{
-  display: inline;
-  list-style-type: none;
-  padding-right: 84px;
-}
-
-nav li:last-child {
-  padding-right: 0;
-}
-
 
 
