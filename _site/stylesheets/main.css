@@ -1,7 +1,18 @@
 body {
+/*  background-image: url("sky1.jpg");
+*/ 
+  background-position: center;
+  background-repeat: repeat-y;
   padding-top: 90px;
   padding-bottom: 90px;
   font-family: 'Arvo', serif;
+  color: #2A3052;
+  text-shadow: 1px 0px #F2EFC4;
+}
+
+.inline{
+  background-color: rgba(239, 242, 216, 0.2);
+  padding: 20px 20px 20px 20px;
 }
 
 nav {
@@ -9,12 +20,19 @@ nav {
   margin-bottom: 25px;
   font-weight: bold;
   letter-spacing: 3px;
+  padding-right: 35px;
+  /*color: #FF6B6B;*/
 }
 
 nav li{
+  font-size: 15px;
   display: inline;
   list-style-type: none;
-  padding-right: 53px;
+  padding-right: 58px;
+}
+
+nav a {
+  color: black;
 }
 
 nav li:last-child {
@@ -29,10 +47,12 @@ nav li:last-child {
 
 article {
   position:relative;
+  
 }
 
 time {
   margin-left: -100px;
+  margin-top:10px;
   float:left;
   font-weight: bold;
 }
@@ -41,11 +61,12 @@ time {
   padding-bottom: 200px;
 }
 
-a {
-  color:#030303;
+a:hover, a:active, a:visited {
+   color: #1BAFBF; 
 }
 
 th {
+  width:110px;
   padding-left: 18px;
   padding-right: 18px;
   padding-top: 10px;
@@ -55,6 +76,62 @@ th {
 #sidebar h1 {
   letter-spacing: 3px;
   padding-left: 8px;
+
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h2 a, h2 a:visited {
+  color: black;
+}
+
+.main-title {
+  /*text-shadow: -1px -1px #FFAB95;*/
+    font-size: 38px;
+    text-shadow: 2px 2px 4px #ccc;
+    color: #D93D52;
+    margin-top: -8px;
+}
+
+#sidebar ul {
+  padding-left: 0;
+  margin-left: 0;
+  -webkit-padding-start: 0;
+}
+
+#sidebar li {
+  display: inline;
+  list-style-type: none;
+  padding: 2px 8px;
+  background-color: rgb(216, 218, 183);
+  border-radius: 10px;
+  }
+
+.blogpost {
+  width: 500px;
+  margin: 0 auto;
 }
 
 
+#pic {
+  width:300px;
+  height:300px;
+}
+
+#contact {
+  clear:both;
+}
+
+footer {
+  font-size: 12px;
+}
+
+.categories {
+  font-weight: bold;
+}
+
+.category {
+  font-weight: normal;
+}
